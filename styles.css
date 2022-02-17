@@ -111,6 +111,7 @@ p {
 .bottom-container {
   position: relative;
   top: 400px;
+  margin: 0;
 }
 
 .skill-row {
