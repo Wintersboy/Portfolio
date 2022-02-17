@@ -42,8 +42,7 @@ hr {
   border-color: #eaf6f6;
   border-width: 5px;
   width: 7%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 
 p {
@@ -90,7 +89,7 @@ p {
 }
 
 .intro {
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 
@@ -109,21 +108,15 @@ p {
   margin: 100px 0px;
 }
 
-.contact-me {
-  position: relative;
-}
-
 .bottom-container {
   position: relative;
+  top: 400px;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-}
-
-.arrow:hover {
 }
 
 .communication-img,
@@ -147,7 +140,9 @@ p {
 }
 
 .button,
-.contact-btn {
+.href-btn,
+.contact-btn,
+.footer-link {
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
@@ -161,30 +156,22 @@ p {
   border-radius: 5px;
 }
 
+.href-btn {
+  margin-top: 70px;
+}
+
 .button:hover,
-.contact-btn:hover {
+.href-btn:hover,
+.contact-btn:hover,
+.footer-link:hover {
   background-color: whitesmoke;
   color: rgb(31, 28, 28);
 }
 
-.contact-btn {
-  margin-top: 60px;
-  padding: 20px;
-  border-radius: 15px;
-}
-
-.footer-paragraph {
-  padding-top: 50px;
-  padding-bottom: 40px;
-}
-
-.footer-link {
-  color: whitesmoke;
-  margin: 10px;
-}
-
-.footer-link:hover {
-  color: rgb(31, 28, 28);
+.contact-paragraph {
+  width: 50%;
+  margin: auto;
+  padding: 20px 0 50px 0;
 }
 
 .copyright {
