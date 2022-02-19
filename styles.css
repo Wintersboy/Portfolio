@@ -60,7 +60,7 @@ p {
   margin-top: -10%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .banner {
     margin-top: -30%;
   }
@@ -86,7 +86,7 @@ p {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 10% auto 10% auto;
   text-align: left;
 }
 
@@ -94,19 +94,19 @@ p {
 .teamwork-img {
   width: 25%;
   float: left;
-  margin: 30px;
+  margin: 3% 4% 7% 0;
 }
 
 .detail-img {
   width: 25%;
   float: right;
-  margin: 40px 30px 30px;
+  margin: 3% 0 7% 4%;
 }
 
 @media (max-width: 600px) {
   .detail-img {
     float: left;
-    padding-right: 20px;
+    margin: 3% 4% 7% 0;
   }
 }
 
